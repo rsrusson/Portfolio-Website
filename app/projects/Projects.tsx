@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <ul>
-        <li className="pt-16 pb-8 text-white hover:text-red-700">
+        <li className="pb-8 text-white hover:text-red-700">
           <a href="https://github.com/rsrusson/Machine-Learning-S-P-Forecaster">
             Machine Learning S&P 500 Forecaster on Github
           </a>
@@ -19,7 +19,7 @@ const Projects = () => {
             Shipping Route Optimization
           </a>
         </li>
-        <li className="py-8 text-white hover:text-red-700">
+        <li className="pt-8 text-white hover:text-red-700">
           <a href="https://github.com/rsrusson/MtnBikeWarehouseInventory">
             Mountain Bike Shop Desktop Inventory System
           </a>
