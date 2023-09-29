@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="">
       <ul className="flex flex-col mx-10">
         <li className="flex flex-col text-center">
           <a
@@ -32,20 +32,20 @@ const Projects = () => {
             className="p-10"
           />
         </li>
-        <li className="flex flex-col text-center">
+        {/*<li className="flex flex-col text-center">
           <a
             href="https://github.com/rsrusson/TravelingSalesmanShippingOptimization"
             className="p-8 m-10 text-white hover:text-red-700 rounded-full bg-slate-400"
           >
-            Shipping Route Optimization
+            Shipping Route Optimization on Github
           </a>
-        </li>
+        </li> */}
         <li className="flex flex-col text-center">
           <a
             href="https://github.com/rsrusson/MtnBikeWarehouseInventory"
             className="p-8 m-10 text-white hover:text-red-700 rounded-full bg-slate-400"
           >
-            Mountain Bike Shop Desktop Inventory System
+            Mountain Bike Shop Desktop Inventory System on Github
           </a>
           <img
             src="\images\warehouse_app.png"
