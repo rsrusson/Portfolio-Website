@@ -6,11 +6,11 @@ import Projects from "./projects/Projects";
 export default function HomePage() {
   return (
     <main>
-      <div className="lg:flex lg:justify-between lg:gap-4">
-        <div className="pt-16 pl-16 lg:w-1/2">
+      <div className="flex">
+        <div className="mt-10 ml-5 w-1/4 h-screen fixed">
           <Header />
         </div>
-        <div className="pt-16 pr-16 lg:w-1/2">
+        <div className="mt-10 ml-[25%] w-3/4 h-screen">
           <Projects />
         </div>
       </div>
