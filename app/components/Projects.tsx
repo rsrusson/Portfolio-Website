@@ -1,16 +1,26 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 const Projects = () => {
+  const [isPyVis, setPyVis] = useState(false);
+  const [isJaVis, setJaVis] = useState(false);
+  const [isTabVis, setTabVis] = useState(false);
   return (
     <div className="">
       <ul className="flex flex-col mx-10">
         <li className="flex flex-col text-center">
-          <a
-            href="https://github.com/rsrusson/Machine-Learning-S-P-Forecaster"
-            className="p-8 m-10 text-white hover:text-red-700 rounded-full bg-slate-400"
-          >
-            Machine Learning S&P 500 Forecaster on Github
-          </a>
+          <div className="m-10">
+            <button className="p-8 m-10 text-white hover:text-red-700 rounded-full bg-slate-400">
+              Show Project
+            </button>
+            <a
+              href="https://github.com/rsrusson/Machine-Learning-S-P-Forecaster"
+              className="p-8 m-10 text-white hover:text-red-700 rounded-full bg-slate-400"
+            >
+              Github: Machine Learning S&P 500 Forecaster
+            </a>
+          </div>
+
           <img
             src="\images\graph_prediction.png"
             alt="S&P Graph Prediction"
@@ -32,21 +42,18 @@ const Projects = () => {
             className="p-10"
           />
         </li>
-        {/*<li className="flex flex-col text-center">
-          <a
-            href="https://github.com/rsrusson/TravelingSalesmanShippingOptimization"
-            className="p-8 m-10 text-white hover:text-red-700 rounded-full bg-slate-400"
-          >
-            Shipping Route Optimization on Github
-          </a>
-        </li> */}
         <li className="flex flex-col text-center">
-          <a
-            href="https://github.com/rsrusson/MtnBikeWarehouseInventory"
-            className="p-8 m-10 text-white hover:text-red-700 rounded-full bg-slate-400"
-          >
-            Mountain Bike Shop Desktop Inventory System on Github
-          </a>
+          <div className="m-10">
+            <button className="p-8 m-10 text-white hover:text-red-700 rounded-full bg-slate-400">
+              Show Project
+            </button>
+            <a
+              href="https://github.com/rsrusson/MtnBikeWarehouseInventory"
+              className="p-8 m-10 text-white hover:text-red-700 rounded-full bg-slate-400"
+            >
+              Github: Mountain Bike Shop Desktop Inventory System
+            </a>
+          </div>
           <img
             src="\images\warehouse_app.png"
             alt="Warehouse Front Page"
@@ -64,9 +71,14 @@ const Projects = () => {
           />
         </li>
         <li className="flex flex-col text-center">
-          <h5 className="p-8 m-10 text-white hover:text-red-700 rounded-full bg-slate-400">
-            Tableau Covid Data Dashboard
-          </h5>
+          <div className="m-10">
+            <button className="p-8 m-10 text-white hover:text-red-700 rounded-full bg-slate-400">
+              Show Project
+            </button>
+            <a className="p-8 m-10 text-white hover:text-red-700 rounded-full bg-slate-400">
+              Tableau Covid Data Dashboard
+            </a>
+          </div>
           <img
             src="\images\tableau_covid_data.png"
             alt="Covid Data Dashboard"

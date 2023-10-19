@@ -1,8 +1,11 @@
 import Image from "next/image";
 import NavigationBar from "./NavigationBar";
 import Header from "./header";
-import Projects from "./projects/Projects";
+import Projects from "./components/Projects";
+import About from "./components/About";
+import ContactMe from "./components/ContactMe";
 import Links from "./links"
+import React from "react";
 
 export default function HomePage() {
   return (
@@ -13,7 +16,9 @@ export default function HomePage() {
           <Links />
         </div>
         <div className="mt-10 ml-[25%] w-3/4 h-screen">
+          <About />
           <Projects />
+          <ContactMe />
         </div>
       </div>
     </main>
