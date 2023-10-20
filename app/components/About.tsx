@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
   <div className='mx-40'>
-    <h1 className='text-center mb-4'>About Me</h1>
+    <h1 className='text-center mb-4 text-6xl'>About Me</h1>
     <p className='first-letter:pl-20 mb-3'>
         Hello and welcome to my portfolio! By trade, I'm a Firefighter Paramedic, but my aspirations extend into the tech industry. With Bachelor's degrees in Computer Science and Emergency Services Management, and working on a Master's in Data Analytics, I bring a unique mix of programming, analytical, and leadership skills to the table. I'm proficient in a range of programming languages like Python, Java, Javascript, Typescript, and SQL, and I'm actively honing my skills in frameworks such as React, Next.js, Node.js, and SpringBoot.
         </p>

@@ -9,7 +9,7 @@ const Header = () => {
         Ryan Russon
       </h1>
       <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200">
-        Software Engineer | Data Analyst
+        Software Engineer | Data Analytics
       </h2>
       <p className="mt-4 max-w-xs leading-normal">
         Optimize software solutions by leveraging data to solve complex
