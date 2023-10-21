@@ -23,7 +23,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <AiOutlineLinkedin />
+            <VscGithub />
           </a>
         </li>
         <li className="mr-5 text-base">
@@ -33,7 +33,8 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <VscGithub />
+            <AiOutlineLinkedin />
+            
           </a>
         </li>
       </ul>
