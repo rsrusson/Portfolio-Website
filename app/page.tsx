@@ -4,21 +4,30 @@ import Header from "./header";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import ContactMe from "./components/ContactMe";
-import Links from "./links"
+import Links from "./links";
 import React from "react";
 
 export default function HomePage() {
   return (
     <main>
-      <div className="flex">
-        <div className="my-10 ml-5 w-1/4 h-screen fixed">
-          <Header />
-          <Links />
+      <div className="flex ">
+        <div className="justify-start flex-col w-1/3 h-screen fixed">
+          <img
+            src="images/mountain.jpg"
+            alt="Fire Background"
+            className="object-cover absolute inset-0 z-0 h-full rounded-lg"
+          ></img>
+          <div className="fixed pt-10 pl-10">
+            <Header />
+            <Links />
+          </div>
         </div>
-        <div className="mt-10 ml-[25%] w-3/4 h-screen">
-          <About />
-          <Projects />
-          <ContactMe />
+        <div className="justify-end w-2/3 h-screen ml-auto">
+          <div className="relative p-10" >
+            <About />
+            <Projects />
+            <ContactMe />
+          </div>
         </div>
       </div>
     </main>

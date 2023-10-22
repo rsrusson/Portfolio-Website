@@ -6,21 +6,22 @@ const Projects = () => {
   const [isJaVis, setJaVis] = useState(false);
   const [isTabVis, setTabVis] = useState(false);
   return (
-    <div className="py-20">
-      <h1 className="mx-32 mb-10 pb-2 text-center text-6xl rounded-3xl bg-stone-500">
-        Projects
+    <div className="py-20" id="projects">
+      <h1 className="mb-10 pb-2 text-center text-6xl rounded-3xl bg-sky-900">
+        {"Projects"}
       </h1>
-      <ul className="flex flex-col mx-10">
+      <ul className="flex flex-col">
         <li className="flex flex-col text-center">
           <div className="flex justify-between">
-            <button className="flex-left p-5 my-10 ml-40 text-white hover:text-red-700 rounded-md bg-slate-400" onClick={() => {setPyVis(!isPyVis)}}>
-              Show Project
+            <button className="flex-left p-5 my-10 ml-32 text-white hover:bg-slate-400 rounded-md bg-sky-700" onClick={() => {setPyVis(!isPyVis)}}>
+              {"Show Project"}
             </button>
             <a
               href="https://github.com/rsrusson/Machine-Learning-S-P-Forecaster"
-              className="flex-right p-8 my-10 mr-40 text-white hover:text-red-700 rounded-full bg-slate-400"
+              className="flex-right p-8 my-10 mr-32 text-white hover:bg-slate-400 rounded-full bg-sky-700"
+              target="_blank"
             >
-              Github: Machine Learning S&P 500 Forecaster
+              {"Github: Machine Learning S&P 500 Forecaster"}
             </a>
           </div>
           { isPyVis ? 
@@ -52,14 +53,15 @@ const Projects = () => {
         </li>
         <li className="flex flex-col text-center">
           <div className="flex justify-between">
-            <button className="p-5 my-10 ml-40 text-white hover:text-red-700 rounded-md bg-slate-400" onClick={ () => {setJaVis(!isJaVis)}}>
-              Show Project
+            <button className="p-5 my-10 ml-32 text-white hover:bg-slate-400 rounded-md bg-sky-700" onClick={ () => {setJaVis(!isJaVis)}}>
+              {"Show Project"}
             </button>
             <a
               href="https://github.com/rsrusson/MtnBikeWarehouseInventory"
-              className="p-8 my-10 mr-40 text-white hover:text-red-700 rounded-full bg-slate-400"
+              className="p-8 my-10 mr-32 text-white hover:bg-slate-400 rounded-full bg-sky-700"
+              target="_blank"
             >
-              Github: Mountain Bike Shop Desktop Inventory System
+              {"Github: Mountain Bike Shop Desktop Inventory System"}
             </a>
           </div>
           {isJaVis ? 
@@ -86,11 +88,11 @@ const Projects = () => {
         </li>
         <li className="flex flex-col text-center">
           <div className="flex justify-between">
-            <button className="p-5 my-10 ml-40 text-white hover:text-red-700 rounded-md bg-slate-400" onClick={() => {setTabVis(!isTabVis)}}>
-              Show Project
+            <button className="p-5 my-10 ml-32 text-white hover:bg-slate-400 rounded-md bg-sky-700" onClick={() => {setTabVis(!isTabVis)}}>
+              {"Show Project"}
             </button>
-            <a className="p-8 my-10 mr-40 text-white hover:text-red-700 rounded-full bg-slate-400">
-              Tableau Covid Data Dashboard
+            <a className="p-8 my-10 mr-32 text-white hover:bg-slate-400 rounded-full bg-sky-700">
+              {"Tableau Covid Data Dashboard"}
             </a>
           </div>
           { isTabVis ?

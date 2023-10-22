@@ -21,9 +21,9 @@ const ContactMe = () => {
     };
     
   return (
-    <div className="pb-20 pt-10">
-      <div className="mx-32 text-center text-6xl bg-stone-500 rounded-3xl">ContactMe</div>
-      <div className="mx-40 mt-10 text-xl flex flex-col justify-center">
+    <div className="pb-20 pt-10" id="contact-me">
+      <div className="text-center text-6xl bg-sky-900 rounded-3xl">ContactMe</div>
+      <div className="mt-10 text-xl flex flex-col justify-center">
         <div className="p-3 text-center">Email: rsrusson1@gmail.com</div>
         <div className="p-3 flex justify-center">
           <a
@@ -43,7 +43,7 @@ const ContactMe = () => {
             <AiOutlineLinkedin />
           </a>
         </div>
-        <button className="p-3 text-center" onClick={handleDownload}>Downloadable Resume</button>
+        <button className="p-3 text-center hover:text-red-600" onClick={handleDownload}>Downloadable Resume</button>
       </div>
     </div>
   );

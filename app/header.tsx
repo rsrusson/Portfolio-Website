@@ -4,16 +4,17 @@ import { VscGithub } from "react-icons/vsc";
 
 const Header = () => {
   return (
-    <header className="">
-      <h1 className="text-4xl font-bold tracking-tight text-slate-200">
-        Ryan Russon
+    <header className="z-1 text-slate-900 py-10">
+      <h1 className="text-4xl font-bold tracking-tight py-3">
+        {"Ryan Russon"}
       </h1>
-      <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200">
-        Software Engineer | Data Analytics
+      <h2 className="text-lg font-medium tracking-tight py-3">
+        {"Software Engineer | Data Analytics"}
       </h2>
-      <p className="mt-4 max-w-xs leading-normal">
-        Optimize software solutions by leveraging data to solve complex
-        problems.
+      <p className="py-3 max-w-xs leading-normal text-black">
+        {
+          "Optimize software solutions by leveraging data to solve complex problems."
+        }
       </p>
       <ul className="ml-1 mt-8 flex items-center">
         <li className="mr-5 text-base">
@@ -34,7 +35,6 @@ const Header = () => {
             rel="noopener noreferrer"
           >
             <AiOutlineLinkedin />
-            
           </a>
         </li>
       </ul>
