@@ -10,8 +10,8 @@ import React from "react";
 export default function HomePage() {
   return (
     <main>
-      <div className="flex ">
-        <div className="justify-start flex-col w-1/3 h-screen fixed">
+      <div className="sm:max-2xl:flex-row flex-col">
+        <div className="sm:max-2xl:justify-start sm:max-2xl:flex-col sm:max-2xl:w-1/3 sm:max-2xl:h-screen sm:fixed relative w-screen h-screen">
           <img
             src="images/mountain.jpg"
             alt="Fire Background"
@@ -22,8 +22,7 @@ export default function HomePage() {
             <Links />
           </div>
         </div>
-        <div className="justify-end w-2/3 h-screen ml-auto">
-          <div className="relative p-10" >
+        <div className="sm:max-2xl:justify-end sm:max-2xl:w-2/3 sm:h-auto sm:max-2xl:mx-auto sm:max-2xl:relative sm:p-10 w-screen px-2">
             <About />
             <Projects />
             <ContactMe />
