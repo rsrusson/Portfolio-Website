@@ -10,15 +10,15 @@ const Projects = () => {
       <h1 className="mb-10 pb-2 text-center text-6xl rounded-3xl bg-sky-900">
         {"Projects"}
       </h1>
-      <ul className="flex flex-col">
+      <ul className="flex flex-col w-auto">
         <li className="flex flex-col text-center">
           <div className="flex justify-between">
-            <button className="flex-left p-5 my-10 ml-32 text-white hover:bg-slate-400 rounded-md bg-sky-700" onClick={() => {setPyVis(!isPyVis)}}>
+            <button className="flex-left p-5 my-10 2xl:ml-32 text-white hover:bg-slate-400 rounded-md bg-sky-700" onClick={() => {setPyVis(!isPyVis)}}>
               {"Show Project"}
             </button>
             <a
               href="https://github.com/rsrusson/Machine-Learning-S-P-Forecaster"
-              className="flex-right p-8 my-10 mr-32 text-white hover:bg-slate-400 rounded-full bg-sky-700"
+              className="flex-right p-8 my-10 2xl:mr-32 text-white hover:bg-slate-400 rounded-full bg-sky-700"
               target="_blank"
             >
               {"Github: Machine Learning S&P 500 Forecaster"}
@@ -53,12 +53,12 @@ const Projects = () => {
         </li>
         <li className="flex flex-col text-center">
           <div className="flex justify-between">
-            <button className="p-5 my-10 ml-32 text-white hover:bg-slate-400 rounded-md bg-sky-700" onClick={ () => {setJaVis(!isJaVis)}}>
+            <button className="p-5 my-10 2xl:ml-32 text-white hover:bg-slate-400 rounded-md bg-sky-700" onClick={ () => {setJaVis(!isJaVis)}}>
               {"Show Project"}
             </button>
             <a
               href="https://github.com/rsrusson/MtnBikeWarehouseInventory"
-              className="p-8 my-10 mr-32 text-white hover:bg-slate-400 rounded-full bg-sky-700"
+              className="p-8 my-10 2xl:mr-32 text-white hover:bg-slate-400 rounded-full bg-sky-700"
               target="_blank"
             >
               {"Github: Mountain Bike Shop Desktop Inventory System"}
@@ -88,10 +88,10 @@ const Projects = () => {
         </li>
         <li className="flex flex-col text-center">
           <div className="flex justify-between">
-            <button className="p-5 my-10 ml-32 text-white hover:bg-slate-400 rounded-md bg-sky-700" onClick={() => {setTabVis(!isTabVis)}}>
+            <button className="p-5 my-10 2xl:ml-32 text-white hover:bg-slate-400 rounded-md bg-sky-700" onClick={() => {setTabVis(!isTabVis)}}>
               {"Show Project"}
             </button>
-            <a className="p-8 my-10 mr-32 text-white hover:bg-slate-400 rounded-full bg-sky-700">
+            <a className="p-8 my-10 2xl:mr-32 text-white hover:bg-slate-400 rounded-full bg-sky-700">
               {"Tableau Covid Data Dashboard"}
             </a>
           </div>

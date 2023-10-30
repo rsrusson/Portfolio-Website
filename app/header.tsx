@@ -17,9 +17,9 @@ const Header = () => {
         }
       </p>
       <ul className="ml-1 mt-8 flex items-center">
-        <li className="mr-5 text-base">
+        <li className="mr-5 text-base text-sky-600">
           <a
-            className="block text-xl hover:text-red-600"
+            className="block text-xl hover:text-slate-400"
             href="https://github.com/rsrusson?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
@@ -27,9 +27,9 @@ const Header = () => {
             <VscGithub />
           </a>
         </li>
-        <li className="mr-5 text-base">
+        <li className="mr-5 text-base text-sky-600">
           <a
-            className="block text-xl hover:text-red-600"
+            className="block text-xl hover:text-slate-400"
             href="https://www.linkedin.com/in/ryan-russon-99b753270/"
             target="_blank"
             rel="noopener noreferrer"
