@@ -12,7 +12,7 @@ const Projects = () => {
       </h1>
       <ul className="flex flex-col">
         <li className="flex flex-col text-center my-3">
-          <div className="flex justify-between">
+          <div className="flex justify-between px-10">
             <button className="flex-left p-5 mr-3 text-white hover:bg-slate-400 rounded-md bg-sky-700" onClick={() => {setPyVis(!isPyVis)}}>
               {"Show Project"}
             </button>
@@ -52,7 +52,7 @@ const Projects = () => {
           }
         </li>
         <li className="flex flex-col text-center my-3">
-          <div className="flex justify-between">
+          <div className="flex justify-between px-10">
             <button className="p-5 mr-3 text-white hover:bg-slate-400 rounded-md bg-sky-700" onClick={ () => {setJaVis(!isJaVis)}}>
               {"Show Project"}
             </button>
@@ -87,7 +87,7 @@ const Projects = () => {
           }
         </li>
         <li className="flex flex-col text-center my-3">
-          <div className="flex justify-between">
+          <div className="flex justify-between px-10">
             <button className="p-5 mr-3 text-white hover:bg-slate-400 rounded-md bg-sky-700" onClick={() => {setTabVis(!isTabVis)}}>
               {"Show Project"}
             </button>
